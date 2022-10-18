@@ -6,11 +6,11 @@ let nome = prompt('Inserisci nome:');
 
 console.log(nome);
 
-let surname  = prompt('Inserisci cognome:');
+let surname = prompt('Inserisci cognome:');
 
 console.log(surname);
 
-let favoriteColor  = prompt('Inserisci colore preferito:');
+let favoriteColor = prompt('Inserisci colore preferito:');
 
 console.log(favoriteColor);
 
