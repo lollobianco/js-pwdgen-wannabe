@@ -3,4 +3,24 @@ html{
    font-family: sans-serif;
 }
 
+body{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.container-big{
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.container{
+   background-color: rgb(255, 203, 124);
+   text-align: center;
+   padding: 10px;
+   border-radius: 20px;
+   height: 30vh;
+}
 

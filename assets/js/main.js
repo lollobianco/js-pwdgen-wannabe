@@ -2,9 +2,9 @@ const yourNumber = '16';
 
 console.log(yourNumber);
 
-let name = prompt('Inserisci nome:');
+let nome = prompt('Inserisci nome:');
 
-console.log(name);
+console.log(nome);
 
 let surname  = prompt('Inserisci cognome:');
 
@@ -14,9 +14,7 @@ let favoriteColor  = prompt('Inserisci colore preferito:');
 
 console.log(favoriteColor);
 
-let password;
-
-console.log(password);
+document.getElementById ('password').innerHTML = `${nome}${surname}${favoriteColor}${yourNumber}`;
 
 
 
