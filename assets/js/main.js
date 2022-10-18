@@ -1,8 +1,22 @@
-const yourNumber = 16;
+const yourNumber = '16';
 
-let name = '';
+console.log(yourNumber);
 
-let surname = '';
+let name = prompt('Inserisci nome:');
 
-let favoriteColor = '';
+console.log(name);
+
+let surname  = prompt('Inserisci cognome:');
+
+console.log(surname);
+
+let favoriteColor  = prompt('Inserisci colore preferito:');
+
+console.log(favoriteColor);
+
+let password;
+
+console.log(password);
+
+
 
